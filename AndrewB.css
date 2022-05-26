@@ -1,0 +1,102 @@
+body{
+    padding: 10px;
+    background-color: rgb(204,153,102);
+  }
+#TitleBar{
+    background-color: rgb(255,255,204);
+    height: 75px;
+    padding: 10px;
+    width: 480px;
+  }
+#MainBox{
+    background-color: rgb(162,131,110);
+    height: 600px;
+    width: 470px;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 5px solid rgb(103,77,60);
+    border-radius: 5px;
+}
+#resp-table{
+    border-spacing: 10px 0px;
+    display: table;
+    margin: 0px -20px;
+    width: max-content;
+}
+.resp-table-row{
+    display: table-row;
+}
+.LeftBox{
+    background-color: rgb(162,131,110);
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+    border: 5px solid rgb(103,77,60);
+    border-radius: 5px;
+    display: table-cell;
+}
+.RightBox{
+    background-color: rgb(162,131,110);
+    height: 200px;
+    width: 180px;
+    padding: 10px;
+    border: 5px solid rgb(103,77,60);
+    border-radius: 5px;
+    display: table-cell;
+}
+.HomeButton{
+    text-align: right;
+    position:  relative;
+    top: -60%
+}
+.Name{
+    text-align: left;
+    position: relative;
+    top: -39%;
+    padding: 0px 90px;
+    font-size: 26pt;
+}
+.identity{
+  color: rgb(48, 48, 48);
+  text-align: left;
+  position: relative;
+  top: -48%;
+  padding: 0px 90px;
+  font-size: 14pt;
+  font-style: italic;
+}
+h1{
+    color: black;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+#Everything{
+  position: absolute;
+  width: 100%;
+}
+.Highlight{
+  background-color: rgb(255,255,204);
+  border-radius: 2px;
+  padding: 0px 4px;
+  margin: -10px 0px;
+  width: fit-content;
+}
+p{
+  color: black;
+}
+#pfp{
+  padding: -1px;
+  width: 70px;
+  height: 70px;
+  align-self: left;
+  border: 3px solid rgb(103,77,60);
+  background-color: rgb(162,131,110);
+  border-radius: 3px;
+}
+#resp-table2{
+  border-spacing: 10px 0px;
+  display: grid;
+  height: 65px;
+}
+.BottomDivider{
+  height: 10px;
+}

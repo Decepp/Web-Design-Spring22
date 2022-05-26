@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(178,194,191);
+}
+
+@media (max-width: 800px) {
+    .table-cell {
+      display: block;
+    }
+    .table-cell {
+      width: 100%;
+    }
+    body {
+      background-color: rgb(178,194,191);
+    }
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  ul{
+    list-style-type: none;
+    width: min-content;
+    background: rgb(178,194,191);
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+  div {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }

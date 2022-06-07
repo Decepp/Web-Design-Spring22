@@ -2,12 +2,15 @@ body{
     padding: 10px;
     background-color: rgb(204,153,102);
   }
+
 #TitleBar{
     background-color: rgb(255,255,204);
     height: 75px;
     padding: 10px;
     width: 480px;
+    position: relative;
   }
+
 #MainBox{
     background-color: rgb(162,131,110);
     height: 600px;
@@ -16,16 +19,24 @@ body{
     margin: 10px 0px;
     border: 5px solid rgb(103,77,60);
     border-radius: 5px;
+    position: relative;
 }
-#resp-table{
-    border-spacing: 10px 0px;
-    display: table;
-    margin: 0px -20px;
-    width: max-content;
+
+#table, #table2{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    width: 500px;
 }
-.resp-table-row{
-    display: table-row;
+
+#table2{
+  max-width: 450px;
+  align-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 10px;
 }
+
 .LeftBox{
     background-color: rgb(162,131,110);
     height: 200px;
@@ -33,22 +44,24 @@ body{
     padding: 10px;
     border: 5px solid rgb(103,77,60);
     border-radius: 5px;
-    display: table-cell;
 }
+
 .RightBox{
     background-color: rgb(162,131,110);
     height: 200px;
     width: 180px;
     padding: 10px;
+    margin-left: 10px;
     border: 5px solid rgb(103,77,60);
     border-radius: 5px;
-    display: table-cell;
 }
+
 .HomeButton{
     text-align: right;
     position:  relative;
     top: -60%
 }
+
 .Name{
     text-align: left;
     position: relative;
@@ -56,6 +69,7 @@ body{
     padding: 0px 90px;
     font-size: 26pt;
 }
+
 .identity{
   color: rgb(48, 48, 48);
   text-align: left;
@@ -65,24 +79,32 @@ body{
   font-size: 14pt;
   font-style: italic;
 }
+
 h1{
     color: black;
     font-family: Verdana, Tahoma, sans-serif;
 }
+
 #Everything{
-  position: absolute;
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
 }
+
 .Highlight{
   background-color: rgb(255,255,204);
   border-radius: 2px;
-  padding: 0px 4px;
-  margin: -10px 0px;
+  padding: -4px 4px;
+  margin: 25px 0px;
   width: fit-content;
 }
+
 p{
   color: black;
 }
+
 #pfp{
   padding: -1px;
   width: 70px;
@@ -92,11 +114,75 @@ p{
   background-color: rgb(162,131,110);
   border-radius: 3px;
 }
+
 #resp-table2{
   border-spacing: 10px 0px;
   display: grid;
   height: 65px;
 }
+
 .BottomDivider{
   height: 10px;
+}
+
+.title{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14pt;
+  color: rgb(255,255,204);
+  text-decoration: underline;
+}
+
+#center{
+  margin: 0px auto;
+}
+
+.contact, #contactE{
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  color: black
+}
+
+ul li{
+  padding: 5px;
+}
+
+.click{
+  transition: background-color .5s;
+}
+
+.click:hover{
+  cursor: pointer;
+  background-color: rgb(209, 209, 142);
+}
+
+#contactE{
+  font-size: 7pt;
+  margin-top: -20px;
+}
+
+.desc{
+  padding-left: 10px;
+}
+
+.pic, .pic2{
+  transition: width 2s, height 2s;
+}
+
+.pic:hover{
+  box-shadow: 0px 0px 20px #00000039;
+  width: 300px;
+}
+
+.pic2:hover{
+  box-shadow: 0px 0px 20px #00000039;
+  width: 150px;
+}
+
+.Highlight:hover{
+  transition: opacity 1s;
+  box-shadow: 0px 0px 20px #00000039;
 }
